@@ -13,6 +13,7 @@ button {
   top: 0;
   width: 150px;
 }
+
 #main-container {
   background-image: url(./assets/img//background.jpg);
   background-size: cover;
@@ -24,14 +25,59 @@ button {
   width: 100%;
 }
 
-
-
-
-
-
-.name{
-
+.page {
+  box-sizing: border-box;
+  height: 29.684cm;
+  margin: 0;
+  padding: 0;
+  width: 21.1cm;
 }
-.resume-header{
 
+.page > * {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(49, 63, 78);
+  height: 9%;
+  padding: 12px 20px;
+}
+
+header .name, header .major {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+header .major {
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.contents {
+  box-sizing: border-box;
+  display: flex;
+  height: 91%;
+  width: 100%;
+}
+
+.main-section {
+  background-color: white;
+  display: inline-block;
+  width: 70%;
+}
+
+.main-section > section,
+.right-section > section {
+  padding: 20px;
+}
+
+.highlights {
+  font-family: Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 100;
+  text-align: left;
+  word-spacing: normal;
+  font-variant: normal;
 }
