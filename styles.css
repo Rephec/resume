@@ -133,3 +133,20 @@ ul {
   list-style: disc;
   list-style-position: inside;
 }
+
+.certificate-card {
+  color: #53555b;
+  font-family: Helvetica, sans-serif;
+  margin: 8px 0;
+}
+
+.date {
+  color: #919191;
+  font-size: small;
+}
+
+.education-card {
+  color: #53555b;
+  font-family: Helvetica, sans-serif;
+  margin: 8px 0;
+}
