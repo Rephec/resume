@@ -81,3 +81,55 @@ header .major {
   word-spacing: normal;
   font-variant: normal;
 }
+
+li {
+  font-variant: normal;
+  font-weight: 100;
+}
+
+.section-title {
+  border-bottom: 1px solid #bdbdbd;
+  color: rgb(49, 63, 78);
+  font-family: Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.right-section {
+  background-color: #f5f5f5;
+  display: inline-block;
+  width: 30%;
+}
+
+.experience-card {
+  font-family: Helvetica, sans-serif;
+  padding: 10px 0;
+}
+.experience-card .title {
+  color: #53555b;
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.experience-card .company {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.experience-card .company .name{
+  color: #919191;
+  font-weight: bold;
+}
+
+.experience-card .company .duration{
+  color: #919191;
+  font-size: 14px;
+}
+
+ul {
+  font-family: Helvetica, sans-serif;
+  font-size: small;
+  list-style: disc;
+  list-style-position: inside;
+}
