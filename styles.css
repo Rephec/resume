@@ -150,3 +150,33 @@ ul {
   font-family: Helvetica, sans-serif;
   margin: 8px 0;
 }
+
+.education-card .institution{
+  font-size: small;
+}
+
+.info-item {
+  color: #53555b;
+  font-family: Helvetica, sans-serif;
+  font-size: small;
+  margin-top: 10px;
+}
+
+.info-item .info {
+  display: block;
+  font-weight: 100;
+  margin-top: 6px;
+}
+
+.skill-card {
+  display: flex;
+  font-family: Helvetica, sans-serif;
+  font-size: small;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.skill-level-container {
+  display: flex;
+}
+
